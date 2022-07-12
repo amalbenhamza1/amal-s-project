@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/03/00/41/80/1000_F_300418058_aux1h7IDcRUHrM3hQ2CQC627AqhWoaNF.jpg');
+    color:white;
+    font-family: cursive;
+}
+header {
+font-size: 1.8rem;
+}
+header
+,form {
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background: white;
+}
+form button {
+    color: #00d5ff;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+form:hover {
+    background: #b59cad;
+    color: white;
+}
